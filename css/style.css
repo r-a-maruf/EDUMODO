@@ -69,8 +69,8 @@ a, a:hover{
     
 }
 .banner .banner-inner h2 {
-    font-size: 29px;
-    line-height: 39px;
+    font-size: 34px;
+    line-height: 44px;
     font-weight: 600;
     color: #ffc178;
     margin-bottom: 20px;
@@ -141,7 +141,7 @@ a, a:hover{
 /* limitless section css  */
 .limitless{
 	width: 100%;
-	padding: 80px 0px;
+	padding: 80px 0px 50px;
 }
 .inner-img{
 	width: 100%;
@@ -221,7 +221,7 @@ width: 100%;
 /* around section css here */
 .around{
 	width: 100%;
-	padding: 50px 0px 100px;
+	padding: 20px 0px 100px;
 }
 .around .title{
 	width: 100%;
@@ -244,6 +244,7 @@ width: 100%;
 .around .card .card-body .card-title {
     margin-bottom:6px;
     font-size: 15px;
+    font-weight: 700;
     line-height:24px;
     color: #252c3a;
 }
@@ -303,7 +304,7 @@ width: 100%;
 	list-style: none;
 }
 .top-widget-footer .inner-widet .social-icon li a{
-	font-size: 22px;
+	font-size: 18px;
 	color: #4a4a4a;
 	padding-right: 10px;
 }
@@ -320,11 +321,11 @@ width: 100%;
     font-size: 15px;
 }
 .top-widget-footer .inner-widet h4 {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 30px;
     color: #fff;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 21px;
 }
 .top-widget-footer .inner-widet .list-group-item {
     position: relative;
@@ -341,18 +342,19 @@ width: 100%;
 }
 
 .top-widget-footer .inner-widet #last-p{
-	margin-top: 25px;
+	margin-top: 30px;
 }
 .top-widget-footer .inner-widet .list-group-item a{
 	color: #969595;
 	text-transform: capitalize;
-
+    transition: 1s;
 }
 .top-widget-footer .inner-widet .list-group-item a:hover{
-	text-decoration: none;
+	color: #ffc178;
+	text-decoration: underline;
 }
 .top-widget-footer .inner-widet .form-control {
-    padding: 18px 12px;
+    padding: 20px 12px;
     border: 0px;
     border-radius: 0px;
 }
@@ -363,9 +365,9 @@ width: 100%;
 }
 .top-widget-footer .inner-widet .btn-primary {
     position: absolute;
-    bottom: 30%;
+    bottom: 28%;
     right: 3%;
-    padding: 7px 15px;
+    padding: 8px 15px;
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
@@ -379,6 +381,7 @@ width: 100%;
 }
 .footer .footer-bottom{
 	width: 100%;
+	padding: 15px 0px;
 	background: #1d232e;
 }
 .footer-bottom .left{
