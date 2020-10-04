@@ -95,6 +95,16 @@ a, a:hover{
 	background: transparent;
 	color:#ffc178;
 }
+.banner .banner-inner .btn-info:focus {
+    border: 0px;
+    box-shadow: none;
+}
+.banner .banner-inner .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+    color: #ffc178;
+    background-color: transparent;
+    border: 0px;
+    box-shadow: none;
+}
 /* feature section css code here */
 .feature{
 	width: 100%;
@@ -413,8 +423,11 @@ width: 100%;
 	font-size: 14px;
 	font-weight: 500;
 	color:#969595; 
+	transition: .5s;
 }
 .footer-bottom .right ul li a:hover{
+	color: #ffc178;
 	text-decoration: none;
+
 }
 .footer-bottom .right{}
